@@ -1,0 +1,248 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+
+}
+
+.material-iconos{
+font-family: 'Material Icons';
+font-weight: normal;
+font-style: normal;
+font-size: 18px;
+line-height: 1;
+display: inline-flex;
+align-items: center;
+}
+
+/* NAVBAR */
+
+.navbararriba{
+background:#000;
+color:white;
+padding:6px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:1px solid #444;
+}
+
+.navbararriba .navbarL{
+font-size: 1rem;
+font-weight: 700;
+}
+
+.navbararriba-links{
+display:flex;
+gap:18px;
+align-items:center;
+}
+
+.navbararriba-links a{
+color:white;
+text-decoration:none;
+font-size:0.75rem;
+}
+
+.navbarR{
+display:flex;
+flex-wrap: nowrap;
+gap:14px;
+font-size:13px;
+align-items:center;
+margin-left:auto;
+overflow-x:auto;
+white-space:nowrap;
+}
+
+.navbarR a{
+color:white;
+text-decoration:none;
+white-space:nowrap;
+}
+
+.material-iconos{
+font-family: 'Material Icons';
+font-size:18px;
+display:inline-flex;
+align-items:center;
+}
+
+.material-iconos::after{
+content: 'fiber_manual_record';
+font-family: 'Material Icons';
+font-size:10px;
+margin-left:6px;
+opacity:0.7;
+}
+
+.navbarabajo{
+background:#000;
+color:white;
+display:flex;
+align-items:center;
+justify-content:space-between;
+position:relative;
+padding:6px 30px 6px;
+min-height: 52px;
+overflow: visible;
+}
+
+.logo-fifa{
+position: absolute;
+left: 50px;
+top: 50px;
+transform: translateY(-50%);
+width:44px;
+}
+
+
+/* CONTENEDOR */
+
+.container{
+padding:40px;
+}
+
+h1{
+margin-bottom:30px;
+}
+
+/* GRID */
+
+.grid{
+display:grid;
+grid-template-columns: repeat(4, 1fr);
+gap:20px;
+}
+
+/* TARJETAS */
+
+.card{
+height:240px;
+padding: 0;
+color:black;
+font-size:22px;
+font-weight:bold;
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+box-shadow: 0px 3px 6px gray;
+ border-radius: 0;
+ overflow: hidden;
+ transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.card:hover {
+ transform: translateY(-5px);
+ box-shadow: 0px 8px 16px rgba(0,0,0,.25);
+}
+
+.info{
+font-family: pepe sans-serif;
+font-size:12px;
+font-weight:normal;
+    background-color: white;
+    color: black;
+    padding: 15px 16px;
+    margin: 0;
+    border-top: 1px solid #dfdfdf;
+    flex-shrink: 0;
+}
+
+.info-label {
+    color: #999999;
+}
+
+.info-value {
+    color: #000;
+}
+
+.card img {
+    width: 40px;
+    margin: 16px 0 0 16px;
+}
+
+.title {
+    margin: 16px 16px 0 16px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* COLORES */
+
+.alemania{
+background:#1e1e1e;
+color:white;
+}
+.imagenalemania{
+    width: 40px;
+    padding-left:8px ;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.arabia{
+background:#2ea44f;
+}
+.imagenarabia {
+    width: 40px;
+    padding-left:8px ;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.argelia{
+background:#1f9e66;
+}
+.imagenargelia{
+    width: 40px;
+    padding-left:8px ;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.argentina{
+background:#9ec5e5;
+}
+.imagenargentina{
+    width: 40px;
+    padding-left:8px ;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.australia{
+background:#f2c200;
+}
+.imagenaustralia{
+    width: 40px;
+    padding-left:8px ;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.austria{
+background:#ff3b30;
+color:white;
+}
+.imagenaustria{
+    width: 40px;
+    padding-left:8px ;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.brasil{
+background:#ffd54d;
+}
+.imagenbrasil{
+    width: 40px;
+    padding-left:8px ;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.belgica{
+background:#8b0020;
+color:white;
+}
+.imagenbelgica{
+    width: 40px;
+    padding-left:8px ;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
